@@ -1,0 +1,23 @@
+##############################################
+#      Spring Profile Configuration          #
+##############################################
+spring:
+  application:
+    name: EmployeeManagementSystem
+  profiles:
+    active: local
+
+server:
+  port: 9000
+
+
+springdoc:
+  api-docs:
+    enabled: true
+    path: /api-docs
+    title: API Documentation
+    description: API Documentation
+
+  swagger-ui:
+    enabled: true
+    path: /swagger-ui
